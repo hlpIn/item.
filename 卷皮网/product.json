@@ -1,0 +1,6 @@
+[
+	{"pid":"1000A","imgSrcB":"img/big1.jpg","price":"38.80","count":"1", "pname":"秋装套头毛衣女装秋冬打底衫外套潮","smallImg":"img/small1.jpg","smallimgs":"img/choose.png"},
+	{"pid":"1000B","imgSrcB":"img/big2.jpg","price":"50.80","count":"1", "pname":"秋装套头毛衣女装领针织衫打底衫外套潮","smallImg":"img/small2.jpg","smallimgs":"img/choose.png"},
+	{"pid":"1000C","imgSrcB":"img/big3.jpg","price":"70.80","count":"1", "pname":"秋装套头毛衣女装打底衫外套潮","smallImg":"img/small3.jpg","smallimgs":"img/choose.png"},
+	{"pid":"1000D","imgSrcB":"img/big4.jpg","price":"88.80","count":"1", "pname":"秋装套头毛衣衫打底衫外套潮","smallImg":"img/small4.jpg","smallimgs":"img/choose.png"}
+]

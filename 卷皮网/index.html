@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="css/index.css" />
+		<script type="text/javascript" src="js/jquery-1.12.4.js" ></script>
+		<script type="text/javascript" src="js/jquery.lazyload.js" ></script>
+		<script type="text/javascript" src="js/jquery.countdown.min.js" ></script>
+		<script type="text/javascript" src="js/ajax.js"></script>
+	</head>
+	<body>
+          <!--
+          	侧边固定部位
+          -->
+          <div id="sidebar_fix">
+			<div class="person" tooltips="注册登录吧"></div>
+			
+			<div class="shoppingcart">
+				<span class="cartimg"></span>
+				<span class="carttext">购物车</span>
+			</div>
+			<div class="cz" tooltips="我的收藏"></div>
+			<div class="gz" tooltips="我的优惠券"></div>
+			<div class="sc" tooltips="意见反馈"></div>
+			<div class="erwei" tooltips="快来扫一扫" ></div>
+			<div class="top" tooltips="返回顶部"></div>
+	    </div>
+	    <!--隐藏项的区域-->
+	    <div id="searchItem_back">
+	    	<div class="searchItem">
+		    	<a  class="today" href="#">今日上新</a>
+		    	<a href="#">女装</a>
+		    	<a href="#">男装</a>
+		    	<a href="#">鞋子</a>
+		    	<a href="#">箱包</a>
+		    	<a href="#">母婴</a>
+		    	<a href="#">居家</a>
+		    	<a href="#">家纺</a>
+		    	<a href="#">文体</a>
+		    	<a href="#">美食</a>
+		    	<a href="#">数码</a>
+		    	<a href="#">电器</a>
+		    	<a href="#">内衣</a>
+		    	<a href="#">配饰</a>
+		    	<a href="#">[即将上线]</a>
+	    	</div>
+	    </div>
+	    <!--楼层效果区域-->
+	    	<div id="louceng">
+	    		<div class="louceng">1F</div>
+	    		<div class="louceng">2F</div>
+	    		<div class="louceng">3F</div>
+	    		<div class="louceng">4F</div>
+	    		<div class="louceng">5F</div>
+	    		<div class="louceng">6F</div>
+	    		<div class="louceng">7F</div>
+	    		<div class="louceng">8F</div>
+	    	</div>	
+		<!--toolbar 头部 -->
+		<div id="toolbar_back">
+			<div id="toolbar">
+				<div class="toolbar-right">
+					<a href="#">登录</a>
+					<a class="toolbar-right_a" href="#">免费注册</a>
+					<a href="#">我的订单</a>
+					<a class="shop" href="#">
+						
+						购物袋
+					<div class="shop1">
+						<img src="img/shop.png" />
+						好像还没登录哦。
+					</div>
+					</a>
+					<a class="shoppercenter" href="#">商家中心
+						<div class="shopper">
+							<a href="#">品牌招商</a>
+							<a href="#">卖家报名</a>
+						</div>
+					</a>
+					<a class="custom" href="#">
+						客户服务
+						<div class="service">
+							<a href="#">帮助中心</a>
+							<a href="#">联系客服</a>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+		<!--logo -->
+		<div id="logo_back">
+			<div id="logo">
+				<div class="logo_left">
+					<img src="img/logo.png" />
+				</div>
+				<div class="logo_center">
+					<a href="#"><img src="img/logo1.png"/></a>
+				</div>
+				<div class="logo_right">
+					<div class="search" id="search">
+						<input class="inp" id="inp" type="text" placeholder="请输入想要的宝贝"/>
+						<div class="searchbtn"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--nav -->
+		<div id="nav_back">
+			<div id="nav">
+				<div class="nav_left">
+					<a href="#">最新折扣</a>
+				</div>
+				<div class="nav_center">
+					<a href="#">品牌折扣</a>
+					<a href="#">特卖精选</a>
+					<a href="#">9.9包邮</a>
+					<a href="#">即将上线</a>
+					<a class="nav_a" href="#">手机版</a>
+				</div>
+				<div class="nav_right">
+					<a class="nav_right_a"href="#">签到领积分</a>
+					<div class="hide_box">
+						<p><a href="#">赚积分攻略</a></p>
+						<div class="hide_box_bottom">
+							<p class="p1"><a href="#">我的积分</a><a href="#">积分商城</a></p>
+							<p><a href="#">赚积分攻略</a></p>
+							<p>QQ特享群:&nbsp;<a href="#"><span>390623238</span></a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--sidebar -->
+		<div id="sidebar_back">
+			<div id="sidebar">
+				<div class="sidebar_left">
+					<p><a href="#"><img src="img/side1.png"/>女装</a><a href="#"><img src="img/side2.png"/>男装</a></p>
+					<p><a href="#"><img src="img/side3.png"/>鞋子</a><a href="#"><img src="img/side4.png"/>箱包</a></p>
+					<p><a href="#"><img src="img/side5.png"/>母婴</a><a href="#"><img src="img/side6.png"/>美妆</a></p>
+					<p><a href="#"><img src="img/side7.png"/>居家</a><a href="#"><img src="img/side8.png"/>家纺</a></p>
+					<p><a href="#"><img src="img/side9.png"/>文体</a><a href="#"><img src="img/side10.png"/>美食</a></p>
+					<p><a href="#"><img src="img/side11.png"/>数码</a><a href="#"><img src="img/side12.png"/>电器</a></p>
+					<p class="last_p"><a href="#"><img src="img/side13.png"/>内衣</a><a href="#"><img src="img/side14.png"/>配饰</a></p>
+					
+				</div>
+				<!--轮播图 -->
+				<div class="sidebar_center">
+					<div class="container">
+						<a href="javascript:;" class="btnleft">&lt;</a>
+						<a href="javascript:;" class="btnright">&gt;</a>
+						<ul class="lunbo_pic">
+							<!--<li class="b1"></li>
+							<li class="b2"></li>
+							<li class="b3"></li>
+							<li class="b4"></li>-->
+						</ul>
+						<ul class="lunbo_item">
+							<!--<li class="active"></li>
+							<li></li>
+							<li></li>
+							<li></li>-->
+						</ul>
+					</div>	
+				</div>
+				<div class="sidebar_right">
+					<div class="div_img"><a href="#"><img src="img/sideright1.jpg"/></a></div>
+					<div><a href="#"><img src="img/sideright2.jpg"/></a></div>
+					<div class="div_img"><a href="#"><img src="img/sideright3.jpg"/></a></div>
+					<div><a href="#"><img src="img/sideright4.jpg"/></a></div>
+					<div><a href="#"><img src="img/sideright5.jpg"/></a></div>
+				</div>
+			</div>
+		</div>
+		<!--brand -->
+		<div id="brand_back">
+			<div id="brand">
+				<div class="brand_top">
+					<div class="brand_top1">
+						<img src="img/brand1.png"/>
+						今日品牌
+						
+					</div>
+					<div class="brand_top2">
+						<a href="#">品牌女装<span>&gt;</span></a>
+						<a href="#">品牌母婴<span>&gt;</span></a>
+						<a href="#">品牌居家<span>&gt;</span></a>
+						<a class="brand_last" href="#">全部品牌<span>&gt;</span></a>
+					</div>
+				</div>
+				<div class="brand_bottom">
+					<div class="pics">
+						<div class="firstpic">
+							<img class="bigpic" src="img/brand1.jpg"/>
+							<span class="daojishi">
+								7天6小时
+							</span>
+							<div class="bottomp">
+								<img src="img/brandpic1.png"/>
+								<div class="purchase">马上抢</div>
+							</div>
+						</div>
+						<div class="firstpic">
+							<img class="bigpic" src="img/brand2.jpg"/>
+							<span class="daojishi">
+								7天6小时
+							</span>
+							<div class="bottomp">
+								<img src="img/brandpic2.png"/>
+								<div class="purchase">马上抢</div>
+							</div>
+						</div>
+						<div class="firstpic">
+							<img class="bigpic" src="img/brand3.jpg"/>
+							<span class="daojishi">
+								7天6小时
+							</span>
+							<div class="bottomp">
+								<img src="img/brandpic3.png"/>
+								<div class="purchase">马上抢</div>
+							</div>
+						</div>
+						
+					</div>
+					<div class="allbrands">
+						<a href="#">更多品牌特卖：</a>
+						<a href="#"><img src="img/allbrand1.png"/></a>
+						<a href="#"><img src="img/allbrand2.png"/></a>
+						<a href="#"><img src="img/allbrand3.png"/></a>
+						<a href="#"><img src="img/allbrand4.png"/></a>
+						
+						<a class="Thelast"  href="#">查看更多》</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--newproduc -->
+		<div id="newproduct_back">
+			<div id="newproduct">
+				<div class="product_top">
+					<div class="product1">今日新品</div>
+					<div class="product2">每天十点更新</div>
+				</div>
+			
+				<div class="product_bottom">
+					<!--产品生成项-->
+					<!--<div class="product_item">
+						<div class="img_item">
+							<img src="img/product1.jpg"/>
+						</div>
+						<h3>[包邮]<a href="#">早秋显瘦连衣裙送腰带</a>
+							<span class="new1">上新</span>
+						</h3>
+						<div class="product_price">
+							<span class="price_cheap">
+								<em class="yuan">￥</em>
+								32
+							</span>
+							<span class="cheap">
+								<em class="yuan">￥</em>
+								<span class="price_old">59</span>（5.4）折
+							</span>
+							<div class="taobao">
+								淘宝
+							</div>
+							<div class="tbhide">
+								<a class="gotaobao" href="#">去淘宝</a> 
+							</div>
+						</div>
+					</div>-->
+				</div>
+			</div>
+		</div>
+		<div id="floor_back">
+			<div id="floor">
+				<div class="floor" style="background: pink;">我是一楼</div>
+				<div class="floor" style="background: blue;">我是二楼</div>
+				<div class="floor" style="background: cyan;">我是三楼</div>
+				<div class="floor" style="background: purple;">我是四楼</div>
+				<div class="floor" style="background: cornflowerblue;">我是五楼</div>
+				<div class="floor" style="background: yellow;">我是六楼</div>
+				<div class="floor" style="background: green;">我是七楼</div>
+				<div class="floor" style="background: red;">我是八楼</div>
+			</div>
+		</div>
+		<!--foot -->
+		<div id="foot_back">
+			<div id="foot">
+				<div class="foot_left">
+					<a href="#"><img src="img/erweima.png"/></a>
+				</div>
+				<div class="foot_center">
+					<ul class="ulList">
+						<h3 class="title">获取更新</h3>
+						<li><a href="#">iphone/Android</a></li>
+						<li><a href="#">卷皮QQ空间</a></li>
+						<li><a href="#">卷皮新浪微博</a></li>
+						<li><a href="#">开放API</a></li>
+					</ul>
+					<ul class="ulList">
+						<h3 class="title">商务合作</h3>
+						<li><a href="#">卖家免费报名</a></li>
+						<li><a href="#">商务合作</a></li>
+						<li><a href="#">廉政邮局</a></li>
+						<li><a href="#">开放平台</a></li>
+					</ul>
+					<ul class="ulList">
+						<h3 class="title">公司信息</h3>
+						<li><a href="#">关于卷皮</a></li>
+						<li><a href="#">媒体报道</a></li>
+						<li><a href="#">诚聘英才</a></li>
+						<li><a href="#">校园经理招募</a></li>
+					</ul>
+					<ul class="ulList">
+						<h3 class="title">帮助中心</h3>
+						<li><a href="#">新手上路</a></li>
+						<li><a href="#">积分攻略</a></li>
+						
+						<li><a href="#">网站地图</a></li>
+					</ul>
+				</div>
+				<div class="foot_right">
+					<a href="#"><img src="img/foot1.png"/></a>
+				</div>
+			</div>
+		</div>
+		<!--final -->
+		<div id="final_back">
+			<div id="final">
+				<div class="final_top">
+					<p class="chain">
+						<a href="#">友情链接：</a>
+						<a href="#">国画</a>
+						<a href="#">齐家装修</a>
+						<a href="#">易果网</a>
+						<a href="#">普洱茶</a>
+						<a href="#">中关村商城</a>
+						<a href="#">品牌鞋</a>
+						<a href="#">精选折扣</a>
+						<a href="#">中国拍鞋网</a>
+						<a class="chain_last" href="#">更多》</a>
+					</p>
+				</div>
+				<p class="final_center">武汉奇米网络科技有限公司 鄂ICP备10209250号 | ICP许可证号：鄂B1-20150109 | 食品流通许可证 SP4201991510041888　　Copyright © 2010 -2016 JuanPi.com All Rights Reserved</p>
+				<div class="final_bottom">
+					<a href="#"><img src="img/final1.gif"/></a>
+					<a href="#"><img src="img/final2.gif"/></a>
+					<a href="#"><img src="img/final3.gif"/></a>
+					<a href="#"><img src="img/final4.png"/></a>
+				</div>
+			</div>
+		</div>
+		<script src="js/index.js"></script>
+	</body>
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/register.css" />
+		<style>
+			.register-box .box{
+				width:250px;
+				padding-left:38px;
+				border:1px solid #ccc;
+			}
+			.register-box .box input{
+				border:none;
+				width:230px;
+			}
+			.register-box .box.false{
+				border:1px solid red;
+			}	
+			.box1{
+				background: url(img/name2.jpg) no-repeat;
+			}
+			.box2{
+				background: url(img/code2.jpg) no-repeat;
+			}
+			.yanzhengright .picture{
+				border:none;
+			}
+			.regist #btn{
+				position:absolute;
+				left:12px;
+				bottom:190px;
+			}
+			.regist #xieyi{
+				position:absolute;
+				left:0;
+				bottom:220px;
+				
+			}
+			.regist .box.xieyi{
+				border:none;
+			}
+			.regist .box.xieyi span{
+				float:left;
+			}
+			.regist .box.xieyi a{
+				float:right;
+			}
+			.regist .cooperate{
+				height:50px;
+				width:300px;
+				
+				position:absolute;
+				left:10px;
+				bottom:90px;
+			}
+			.regist .cooperate .cooperate_left{
+				height:100%;
+				width:150px;
+				text-align: center;
+				float:left;
+			}
+			.regist .cooperate .cooperate_left span{
+				line-height:30px;
+			}
+			.regist .cooperate .cooperate_right{
+				height:100%;
+				width:140px;
+				line-height:50px;
+				font-size:18px;
+				font-family: "宋体";
+				float:right;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<!--logo -->
+		<div id="logo_back">
+			<div id="logo">
+				<div class="logo_left">
+					<img src="img/logo.png" />
+				</div>
+				<div class="logo_center">
+					<a href="#"><img src="img/logo1.png"/></a>
+				</div
+			</div>
+		</div>
+		<!--bottom -->
+		<div id="bottom_back">
+			<div id="bottom">
+				<div class="title_item">
+					<div class="title_left">
+						<span>新用户注册</span>
+						注册卷皮网，赢积分换好礼！
+					</div>
+					<div class="title_right">
+						已有账号，<a href="#">立即登录</a>
+					</div>
+				</div>
+				<div class="yanzheng">
+					<div class="regist">
+						<div class="cooperate">
+							<div class="cooperate_left">
+								<span>合作网站账号登录</span>
+								<a href="#"><img src="img/qq.bmp"/></a>
+							</div>
+							<div class="cooperate_right">
+								<a href="#">手机快捷登录》</a>
+							</div>
+						</div>
+							<div class="register-box">
+							<!--邮箱 -->
+							
+							<div class="box box1 false">
+								<i></i>
+								<input type="text" id="userName" placeholder="手机号/邮箱/昵称"/>
+								
+							</div>
+							<!--错误提示项 -->
+							<div class="tip">
+								<span></span>
+							</div>
+						</div>
+						<!--密码 -->
+						<div class="register-box ">
+							
+							<div class="box box2">
+								<input type="password" id="userName" placeholder="密码"/>
+								<i></i>
+							</div>
+							<!--错误提示项 -->
+							<div class="tip">
+								<span></span>
+							</div>
+						</div>			
+						 <!--注册协议-->
+		    			<div class="register-box xieyi" id="xieyi">
+			    			<!--表单项-->
+			    			<div class="box xieyi">
+			    				
+			    				<span><input type="checkbox" id=ck />两周内免登陆</span><a href="javascript:">忘记密码？</a>
+			    			</div>
+						</div>
+		    				<button id="btn">登录</button>
+						
+					</div>
+					<div class="yanzhengright">
+						<div class="picture">
+							<img src="img/clothes.png" />
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,276 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, form, fieldset, legend,
+ img { 
+ 	margin:0; padding:0;
+}
+ul, ol {
+	 list-style:none; 
+} 
+body {
+	font:14px/20px "微软雅黑";
+}
+a{
+	text-decoration: none;
+	color:#000000;
+}
+a:hover{
+	text-decoration: underline;
+}
+#list,#logo1{
+	width:1200px; margin:0 auto;
+}
+#logo1_back{
+	height:85px;
+	border-bottom:3px solid #C40000;
+}
+#logo1{
+	height:85px;
+}
+.logo1_center{
+	float:right;
+	padding-right:50px;
+}
+.logo1_left{
+	float:left;
+}
+.empty{
+	height:300px;
+	width:100%;
+	background:#fff;
+	position:relative;
+	background:#eee;
+	margin-top:30px;
+	display:none;
+}
+.empty .empty_img{
+	position:absolute;
+	left:300px;
+	top:50px;
+
+}
+.empty .empty_h{
+	position:absolute;
+	left:480px;
+	top:50px;
+	font-size:30px;
+	line-height:50px;
+	
+}
+.empty .goto{
+	position:absolute;
+	left:580px;
+	top:150px;
+	font-size:20px;
+	color:#fff;
+	background:#C40000;
+	width:200px;
+	height:50px;
+	line-height: 50px;
+	text-align:center;
+}
+.fool{
+	width:100%;
+	background:#eee;
+}
+.fool .times{
+	height:80px;
+	width:100%;
+	
+	font:16px/80px "微软雅黑";
+}
+.fool .times .time_p{
+	height:80px;
+	font:16px/80px "微软雅黑";
+	
+}
+.fool .times span{
+	color:#C40000;
+}
+.fool .pro_detail{
+	height:40px;
+	line-height:40px;
+	background:#ccc;
+	padding-left:50px;
+	position:relative;
+}
+.fool .pro_detail .allcheck{
+	height:14px;
+	width:60px;
+	position:absolute;
+	left:5px;
+	top:10px;
+}
+.fool .pro_detail .allcheck span{
+	height:14px;
+	line-height:18px;
+	width:30px;
+	float:left;
+	
+}
+.fool .pro_detail .allcheck input{
+	float:left;
+}
+.fool .pro_detail li{
+	float:left;
+	width:220px;
+	text-align:center;
+	color:#333333;
+}
+.fool .pro_detail .first_li{
+	width:240px;
+	padding-left:20px;
+}
+.fool .list_change{
+	width:1150px;
+	padding-left: 50px;
+	background:lightgoldenrodyellow;
+	border-bottom:1px solid #A52A2A;
+}
+
+.fool .list_change .trs{
+	height:70px;
+	width:1150px;
+	background:lightgoldenrodyellow;
+	padding-left: 50px;
+	padding:20px 0;
+	
+}
+.fool .list_change td{
+	height:100px;
+	width:220px;
+	text-align:center;
+}
+.fool .list_change .td1{
+	width:220px;
+	padding-left:20px;
+	text-align: left;
+}
+.fool .list_change .td1 .Img{
+	height:60px;
+	width:60px;
+	float:left;
+	overflow: hidden;
+}
+.fool .list_change .td1 .Img img{
+	height:60px;
+	width:60px;
+}
+.list_change .td1 .Detail{
+	width:130px;
+	float:left;
+	margin-left:20px;
+}
+.list_change .td1 .Detail p{
+	line-height:20px;
+	height:20px;
+}
+.list_change .td2 em{
+	font-style:normal;
+	font-size:16px;
+}
+.list_change .td2 .price{
+	color:#333333;
+}
+.list_change .td2 .old_p{
+	color:#CCCCCC;
+}
+.list_change .td3 .decrease{
+	width:25px;
+	height:25px;
+	border:1px solid #ccc;
+	float:left;
+	margin-left:80px;
+	cursor:pointer;	
+}
+.list_change .td3 .amount{
+	width:45px;
+	height:25px;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	float:left;
+	
+}
+.list_change .td3 .indecrease{
+	width:25px;
+	height:25px;
+	border:1px solid #ccc;
+	float:left;
+	cursor:pointer;
+}
+.list_change .td4 em{
+	font-style:normal;
+	font-size:16px;
+	color:#C40000;
+}
+.list_change .td4 span{
+	color:#C40000;;
+}
+.fool .list_change .td5{
+	width:180px;
+}
+.list_change .td5 .dels{
+	width:20px;
+	height:20px;
+	cursor:pointer;
+	margin-left:100px;
+	background:url(../img/del.png) no-repeat 0 -24px;
+}
+.list_change .td5 .dels:hover{
+	background:url(../img/del.png) no-repeat 0 0;
+}
+.tips{
+	width:100%;
+	height:50px;
+	padding:10px 0;
+}
+.tips .continue{
+	float:left;	
+	font-family:"微软雅黑";
+	padding-right:300px;
+}
+.tips .continue a{
+	color:dodgerblue;
+}
+.tips .caculate{
+	height:50px;
+	width:610px;
+	float:left;
+}
+.tips .caculate div{
+	height:30px;
+	padding-top:20px;
+	width:180px;
+	color:#333333;
+	float:left;
+}
+.tips .caculate em{
+	font-style:normal;
+	color:#000000;
+}
+.tips .caculate .all_total{
+	width:200px;
+}
+.tips .caculate .all_total em{
+	color:#C40000;
+}
+.tips .caculate span{
+	color:#333333;
+}
+.tips .caculate .all_total span{
+	color:#C40000;
+	font-size:20px;
+}
+.tips .total{
+	height:40px;
+	line-height: 40px;
+	color:#fff;
+	width:160px;
+	text-align:center;
+	margin-top:10px;
+	background:#C40000;
+	float:right;
+	margin-right:30px;
+	cursor:pointer;
+}
+.tips .total:hover{
+	opacity:0.7;
+}
